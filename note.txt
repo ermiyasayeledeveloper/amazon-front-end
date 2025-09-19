@@ -1,0 +1,14 @@
+when making web = first make the total home page , and make the header and the footer wraped on layout another component b/c the have to appear every where
+=on the src folder creat "pages  folder" on that creat landing.jsx file and wrap them with layout property
+=creat other required pages  on the pages folder and make all wrapped all with layout so that the header and the footer always appear
+=then creat routin file outside and give all the pages path and element that has to be displayed with that link by importing the necessry modules
+=then display routing on the app.jsx afterimporting 
+
+
+///when installing  firebase
+1.firebase login
+2.firebase init
+3.then choose y to complete the installing
+4.then install the following pakages express, cors, stripe, dotenv
+stopped at 30min
+//stopped at 28 min
