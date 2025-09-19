@@ -1,6 +1,6 @@
 import React from 'react'
 import { CatagoryInfos } from './CatagoryInfos'
-import Catagorycard from './Catagorycard'
+import Catagorycard from './CatagoryCard.jsx'
 import classes from './Catagory.module.css'
 
 function Catagoryy() {
