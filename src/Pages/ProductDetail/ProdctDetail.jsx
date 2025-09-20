@@ -22,7 +22,7 @@ function ProdctDetail() {
     setIsLoading(true)
     axios.get(`${producturl}/${productid}`)
     .then((res)=>{
-      console.log(res)
+      // console.log(res)
       setProductt(res.data);
       setIsLoading(false)
     }).catch((err)=>{
@@ -32,7 +32,7 @@ function ProdctDetail() {
   }, [])
 
   const [state, dispatch]=useContext(DataContext)
-  console.log(state)
+  // console.log(state)
   
       const addToCart = () => {
   dispatch({

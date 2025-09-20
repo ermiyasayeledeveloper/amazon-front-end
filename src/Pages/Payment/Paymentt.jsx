@@ -39,7 +39,7 @@ const total = basket.reduce((amount,item)=>{
         method:"POST",
         url:`/payment/create?total=${total *100}`,
       })
-      console.log(response.data)
+      // console.log(response.data)
       const clientSecret = response.data?.clientSecret
       //2.client side confirmation
       const {paymentIntent} = await stripe.confirmCardPayment(clientSecret, {
@@ -47,7 +47,7 @@ const total = basket.reduce((amount,item)=>{
           card: elements.getElement(CardElement),
         }
       });
-      console.log(paymentIntent);
+      // console.log(paymentIntent);
       
 
       //after confirmation -> store in the firebase
